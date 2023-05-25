@@ -57,7 +57,7 @@ body {
     box-shadow: 0 25px 50px -12px rgb(0 0 0/ 25%);
 }
 
-.hero_text {
+.hero__text {
     font-weight: 800;
     font-size: 30px;
     margin: 20px 0px;
@@ -70,7 +70,7 @@ body {
 
 .food__card {
     background-color: #f9f9f9;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     
 }
 
@@ -91,8 +91,63 @@ body {
     color: #1d3557;
     font-weight: 800;
 }
-@media (min-width: 768px) {
 
+.rest__image__container {
+    width: 100%;
+}
+
+.rest__image{
+    width: 100%;
+    border-radius: 8px 8px ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.rest__text {
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #1d3557;
+}
+
+.stay__text {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #1d3557;
+    margin-top: 30px;
+}
+.stay__email__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    
+    
+    .rest__text {
+        margin-top: 35px;
+    }
+
+    .rest__container {
+        display: flex;
+        align-items: center;
+    }
+    .rest__container__lists {
+        flex-wrap: row wrap;
+        padding-left: 100px;
+    }
+
+    .rest__container__lists__1 {
+        display: flex;
+        flex-wrap: column wrap;
+        gap: 10px;
+    }
+    .rest__container__lists__2 {
+        display: flex;
+        flex-wrap: column wrap;
+        gap: 10px;
+    }
     .explore__menu__container {
         position: relative;
     }
@@ -136,6 +191,15 @@ body {
 }
 
 @media (min-width: 1024px){
+    
+    
+    .rest__container {
+        margin-top: 30px;
+    }
+
+    .rest__text {
+        font-size: 35px;
+    }
     .explore__menu__lists {
         gap: 25px;
     }
@@ -164,3 +228,7 @@ body {
     }
 }
 
+/*.rest__container__lists__1 {
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
