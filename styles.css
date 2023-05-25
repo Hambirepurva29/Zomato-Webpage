@@ -112,7 +112,7 @@ body {
 
 .stay__text {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     color: #1d3557;
     margin-top: 30px;
@@ -121,7 +121,49 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
+.stay__email__textbox{
+    padding: 6px 12px;
+    margin-left: 20px;
+}
+.stay__email__button {
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%, 
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 5px   ;
+    font-size: 20px;
+}
+
+.stay__email__button:hover {
+    border: 2px solid #dd2476;
+    cursor: pointer;
+}    
+.quote__container {
+    width: 100%;
+}
+
+.quote__image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0/ 25%);
+}
+
+footer {
+    background-color:#fff;
+    width: 100%;
+}
+.footer__container {
+    display: inline-flex;
+}
+
 @media (min-width: 768px) {
     
     
@@ -191,8 +233,14 @@ body {
 }
 
 @media (min-width: 1024px){
-    
-    
+    .stay__email__textbox{
+        padding: 10px 70px;
+        margin-left: 90px;
+    }
+    .stay__email__button {
+        padding: 18px 23px ;
+    }
+   
     .rest__container {
         margin-top: 30px;
     }
@@ -225,6 +273,11 @@ body {
 
     .explore__menu__text {
         font-size: 48px;
+    }
+    .footer__list__container {
+        margin-top: 70px;
+        margin-left: 1300px;
+        font-size: 30px;
     }
 }
 
