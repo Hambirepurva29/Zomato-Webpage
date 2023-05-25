@@ -39,6 +39,8 @@ body {
 .button__primary:hover {
     border: 2px solid #dd2476;
     cursor: pointer;
+    border-style:groove;
+    transition:10s ease;
 }    
 
 .container {
